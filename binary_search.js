@@ -19,5 +19,5 @@ function binary_search(arr, target) {
   return -1;
 }
 
-const index = binary_search(numbers, 156);
+const index = binary_search(numbers, 156154);
 console.log(index);
