@@ -7,6 +7,11 @@ function bubble_sort(array) {
         [array[j], array[j + 1]] = [array[j + 1], array[j]];
       }
     }
+    // for (let j = 0; j < array.length - 1; j++) {
+    //   if (array[j] < array[j + 1]) {
+    //     [array[j], array[j + 1]] = [array[j + 1], array[j]];
+    //   }
+    // }
   }
   return array;
 }
